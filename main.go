@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ibuildthecloud/klum/pkg/controllers/user"
-	"github.com/ibuildthecloud/klum/pkg/crd"
-	"github.com/ibuildthecloud/klum/pkg/generated/controllers/klum.cattle.io"
+	"github.com/iwilltry42/klum/pkg/controllers/user"
+	"github.com/iwilltry42/klum/pkg/crd"
+	"github.com/iwilltry42/klum/pkg/generated/controllers/klum.cattle.io"
 	"github.com/rancher/wrangler-api/pkg/generated/controllers/core"
 	"github.com/rancher/wrangler-api/pkg/generated/controllers/rbac"
 	"github.com/rancher/wrangler/pkg/apply"

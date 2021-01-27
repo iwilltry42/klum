@@ -22,9 +22,9 @@ import (
 	"context"
 	"time"
 
-	clientset "github.com/ibuildthecloud/klum/pkg/generated/clientset/versioned"
-	scheme "github.com/ibuildthecloud/klum/pkg/generated/clientset/versioned/scheme"
-	informers "github.com/ibuildthecloud/klum/pkg/generated/informers/externalversions"
+	clientset "github.com/iwilltry42/klum/pkg/generated/clientset/versioned"
+	scheme "github.com/iwilltry42/klum/pkg/generated/clientset/versioned/scheme"
+	informers "github.com/iwilltry42/klum/pkg/generated/informers/externalversions"
 	"github.com/rancher/wrangler/pkg/generic"
 	"github.com/rancher/wrangler/pkg/schemes"
 	"k8s.io/apimachinery/pkg/runtime/schema"

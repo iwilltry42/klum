@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/ibuildthecloud/klum/pkg/generated/clientset/versioned"
-	klumv1alpha1 "github.com/ibuildthecloud/klum/pkg/generated/clientset/versioned/typed/klum.cattle.io/v1alpha1"
-	fakeklumv1alpha1 "github.com/ibuildthecloud/klum/pkg/generated/clientset/versioned/typed/klum.cattle.io/v1alpha1/fake"
+	clientset "github.com/iwilltry42/klum/pkg/generated/clientset/versioned"
+	klumv1alpha1 "github.com/iwilltry42/klum/pkg/generated/clientset/versioned/typed/klum.cattle.io/v1alpha1"
+	fakeklumv1alpha1 "github.com/iwilltry42/klum/pkg/generated/clientset/versioned/typed/klum.cattle.io/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

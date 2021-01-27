@@ -21,10 +21,10 @@ package v1alpha1
 import (
 	time "time"
 
-	klumcattleiov1alpha1 "github.com/ibuildthecloud/klum/pkg/apis/klum.cattle.io/v1alpha1"
-	versioned "github.com/ibuildthecloud/klum/pkg/generated/clientset/versioned"
-	internalinterfaces "github.com/ibuildthecloud/klum/pkg/generated/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/ibuildthecloud/klum/pkg/generated/listers/klum.cattle.io/v1alpha1"
+	klumcattleiov1alpha1 "github.com/iwilltry42/klum/pkg/apis/klum.cattle.io/v1alpha1"
+	versioned "github.com/iwilltry42/klum/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/iwilltry42/klum/pkg/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/iwilltry42/klum/pkg/generated/listers/klum.cattle.io/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

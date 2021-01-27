@@ -19,7 +19,7 @@ limitations under the License.
 package scheme
 
 import (
-	klumv1alpha1 "github.com/ibuildthecloud/klum/pkg/apis/klum.cattle.io/v1alpha1"
+	klumv1alpha1 "github.com/iwilltry42/klum/pkg/apis/klum.cattle.io/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

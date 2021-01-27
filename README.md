@@ -1,5 +1,6 @@
-klum - Kubernetes Lazy User Manager
-========
+# klum - Kubernetes Lazy User Manager
+
+**DISCLAIMER**: This is a fork of <https://github.com/ibuildthecloud/klum>
 
 klum does the following basic tasks:
 
@@ -17,7 +18,7 @@ kubectl apply -f https://raw.githubusercontent.com/ibuildthecloud/klum/master/de
 ```
 
 ## Usage
- 
+
 ### Create User
 
 ```yaml
@@ -28,18 +29,22 @@ metadata:
 ```
 
 ### Download Kubeconfig
+
 ```shell script
 kubectl get kubeconfig darren -o json | jq .spec > kubeconfig
 kubectl --kubeconfig=kubeconfig get all
 ```
+
 The name of the kubeconfig resource will be the same as the user name
 
 ### Delete User
+
 ```shell script
 kubectl delete user darren
 ```
 
 ### Assign Roles
+
 ```yaml
 kind: User
 apiVersion: klum.cattle.io/v1alpha1
@@ -62,6 +67,7 @@ configured on the controller.  The default value is cluster-admin, so change
 that if you want a more secure setup.
 
 ### Disable user
+
 ```yaml
 kind: User
 apiVersion: klum.cattle.io/v1alpha1
@@ -74,6 +80,7 @@ spec:
 When the user is reenabled a new kubeconfig with new token will be created.
 
 ## Configuration
+
 The controller can be configured as follows.  You will need to edit the deployment and change
 then environment variables:
 
@@ -90,13 +97,14 @@ GLOBAL OPTIONS:
 
 `make` or just `go build`
 
-![](https://media.giphy.com/media/3o7TKGMZHi73yzCumQ/giphy.gif)
+![make](https://media.giphy.com/media/3o7TKGMZHi73yzCumQ/giphy.gif)
 
 ## Running
 
 `./bin/klum --kubeconfig=${HOME}/.kube/config`
 
 ## License
+
 Copyright (c) 2020 [Rancher Labs, Inc.](http://rancher.com)
 
 Licensed under the Apache License, Version 2.0 (the "License");

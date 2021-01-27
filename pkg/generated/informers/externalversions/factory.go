@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/ibuildthecloud/klum/pkg/generated/clientset/versioned"
-	internalinterfaces "github.com/ibuildthecloud/klum/pkg/generated/informers/externalversions/internalinterfaces"
-	klumcattleio "github.com/ibuildthecloud/klum/pkg/generated/informers/externalversions/klum.cattle.io"
+	versioned "github.com/iwilltry42/klum/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/iwilltry42/klum/pkg/generated/informers/externalversions/internalinterfaces"
+	klumcattleio "github.com/iwilltry42/klum/pkg/generated/informers/externalversions/klum.cattle.io"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

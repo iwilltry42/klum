@@ -21,7 +21,7 @@ package versioned
 import (
 	"fmt"
 
-	klumv1alpha1 "github.com/ibuildthecloud/klum/pkg/generated/clientset/versioned/typed/klum.cattle.io/v1alpha1"
+	klumv1alpha1 "github.com/iwilltry42/klum/pkg/generated/clientset/versioned/typed/klum.cattle.io/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

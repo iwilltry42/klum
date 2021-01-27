@@ -19,9 +19,9 @@ limitations under the License.
 package klum
 
 import (
-	clientset "github.com/ibuildthecloud/klum/pkg/generated/clientset/versioned"
-	v1alpha1 "github.com/ibuildthecloud/klum/pkg/generated/controllers/klum.cattle.io/v1alpha1"
-	informers "github.com/ibuildthecloud/klum/pkg/generated/informers/externalversions/klum.cattle.io"
+	clientset "github.com/iwilltry42/klum/pkg/generated/clientset/versioned"
+	v1alpha1 "github.com/iwilltry42/klum/pkg/generated/controllers/klum.cattle.io/v1alpha1"
+	informers "github.com/iwilltry42/klum/pkg/generated/informers/externalversions/klum.cattle.io"
 	"github.com/rancher/wrangler/pkg/generic"
 )
 

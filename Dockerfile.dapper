@@ -1,4 +1,4 @@
-FROM golang:1.13.4-alpine3.10
+FROM golang:1.15.7-alpine3.13
 
 ARG DAPPER_HOST_ARCH
 ENV ARCH $DAPPER_HOST_ARCH
@@ -19,7 +19,7 @@ RUN if [ "${ARCH}" == "amd64" ]; then \
 
 ENV GO111MODULE off
 ENV DAPPER_ENV REPO TAG DRONE_TAG
-ENV DAPPER_SOURCE /go/src/github.com/ibuildthecloud/klum/
+ENV DAPPER_SOURCE /go/src/github.com/iwilltry42/klum/
 ENV DAPPER_OUTPUT ./bin ./dist
 ENV DAPPER_DOCKER_SOCKET true
 ENV HOME ${DAPPER_SOURCE}
